@@ -1,4 +1,0 @@
-# conflicting services
-int_conflicting_services:
-  - sapconf
-  - tuned

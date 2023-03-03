@@ -1,9 +1,0 @@
----
-- name: Use sles_register role
-  hosts: all
-  remote_user: my_ansible_user
-  become: true
-  vars:
-    reg_code: 'This-is-not-a-valid-reg-code'
-  roles:
-    - { role: ../roles/sles_register }
