@@ -1,3 +1,0 @@
-{% for tenant in int_fact_db_tenant_names %}
-BACKUP DATA FOR {{ tenant | replace('\"', '') }} USING FILE('{{ backup_name }}');
-{% endfor %}
